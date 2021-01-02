@@ -7,7 +7,7 @@
 
 *P.S. your facebook dataset should be in `json`*
   
-### Jupyter Notebook or Jupyter Lab steps:
+### Jupyter Notebook or Jupyter Lab
   2. Open Jupyter Notebook or Jupyter Lab.
   3. By default, the tool analyzes `facebook-sampledataset`. If you would like to test the tool on your own dataset,
       - If your zip file ends with `tar`, uncomment line 4 in the first code block and change the line to reflect the path to your zip file. 
