@@ -7,7 +7,7 @@
 2. Install all Python package dependencies by running `pip install -r requirements.txt` on your terminal. 
 3. Open Jupyter Notebook or Jupyter Lab.
 4. By default, the tool analyzes `facebook-sampledataset`. If you would like to test the tool on your own dataset,
-..a. If your zip file ends with `tar`, uncomment line 4 in the first code block and change the line to reflect the path to your zip file. 
+⋅⋅a. If your zip file ends with `tar`, uncomment line 4 in the first code block and change the line to reflect the path to your zip file. 
 `!tar -xvf {path_to_facebook_zip}`
 ..b. If your zip file ends with `zip`, uncomment line 7 in the first code block and change the line to reflect the path to your zip file. 
 `!unzip {path_to_facebook_zip}`
