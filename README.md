@@ -12,14 +12,14 @@
   b. If your zip file ends with `zip`, uncomment line 7 in the first code block and change the line to reflect the path to your zip file. 
 `!unzip {path_to_facebook_zip}`
   c. Change line 12 in the first code block to the name of your Facebook dataset. `os.path.join(os.getcwd(),'facebook-yourname')`
-Run the notebook. 
-Open terminal and run 
+5. Run the notebook. 
+6. Open terminal and run 
 `python -m SimpleHTTPServer`
 Depending on your Python version, you may get the error 
 `C:\Python33\python.exe: No module named SimpleHTTPServer`
 In this case, run
 `python -m http.server 8000`
-Go to http://localhost:8000 on your browser.
+7. Go to http://localhost:8000 on your browser.
 
 
 
