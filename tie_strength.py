@@ -331,11 +331,7 @@ if __name__ == '__main__':
     for friend in friend_analyze:
         update_friend_tone(os.path.join(startpath,'messages','inbox'),friend)
 
-    # Prepare CSVs for visualization
-    df_ten = df.copy()
-    df_ten = df_ten.head(10)
-    df_ten.drop(columns=['days since being friends','comment frequency', 'post frequency', 'empath','number of messages','chat hash', 'vader positivity','days since last communication','Anger','Fear','Joy','Sadness','Analytical','Analytical','Confident','Tentative','score'], inplace = True)
-    df_ten.to_csv('df_ten.csv',index=False)
+    
 
     df.drop(columns=['comment frequency', 'post frequency', 'empath', 'chat hash', 'vader positivity'], inplace = True) 
     # change some of the type of the values for visualization
@@ -344,10 +340,17 @@ if __name__ == '__main__':
         df[metric] = df[metric].astype(int)
     decimal_metrics = ['tie strength','Anger','Fear','Joy','Sadness','Analytical','Confident','Tentative', 'score']
     for metric in decimal_metrics:
-        df[metric] = df[metric].astype(float).round(decimals = 3)
+        df[metric] = df[metric].astype(float).round(decimals = 2)
+
+    # Prepare CSVs for visualization
+    df_ten = df.copy()
+    df_ten = df_ten.head(10)
+    df_ten = df_ten[['name', 'tone', 'tie strength']]
+    df_ten.to_csv('df_ten.csv',index=False)
+    
     df = df.sort_values(by = ['name'], ascending = True) # sort alphabetically
     # add a dummy row for the visualization 
     dummy_row = pd.DataFrame({'name':'Select a friend!'}, index =[0]) 
     df = pd.concat([dummy_row, df]).reset_index(drop = True) 
     # export the dataframe to csv file
-    df.to_csv('df_leaderboard.csv',index=False)
+    df.to_csv('df.csv',index=False)
