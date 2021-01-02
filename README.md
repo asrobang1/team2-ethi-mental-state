@@ -48,9 +48,9 @@ Metrics 1-3 were taken from Burke et al.’s (2014) and metrics 4-6 Gilbert et a
   6. **Days since last communication:** Unlike the other metrics, there is a negative correlation between days since last communication and tie strength.
   
 ### Linear Regression
-*Tie strength= -0.76 (days since last communication)+0.111 (wall intimacy words)+
+$$ Tie strength= -0.76 (days since last communication)+0.111 (wall intimacy words)+
 0.135 (inbox positivity) +0.299 (number of wall posts)+0.299 (messages exchanged) +
-0.299 (number of comments)*
+0.299 (number of comments) $$
 
 We followed the linear regression stated in the findings in Gilbert et al.’s paper to predict tie strength. The beta coefficients obtained from the paper were days since last communication, wall intimacy words, inbox positivity. Since we don’t have the coefficients on the number of messages exchanged, number of comments on tie’s content, number of posts written on tie’s wall, we used the beta coefficients of wall words exchanged in the paper as an approximation. Referring back to Burke et al.’s  paper, since the number of wall posts, comments and messages are all grouped into a category of “composed direct communications” and it was proven that these have a significant effect on tie strength, we made an assumption that these three metrics has the same effect on tie strength and therefore, have the same beta coefficients.
 
