@@ -57,3 +57,18 @@ We followed the linear regression stated in the findings in Gilbert et al.’s p
 ## Data Visualization
 **Emotion and Communication Style Analysis:** The IBM Watson Tone Analyzer (general-purpose endpoint) was used to analyze emotions and communication styles for the 50 most recent messages between the user and the friend. The tones analyzed consist of anger, fear, joy, sadness, analytical, confident, and tentative; a neutral tone was given if a prominent tone could not be identified. The tone analyzed is merely used for data visualization purposes in order to provide users with more understanding of prominent tones in their message and was not used to predict tie strength.
 
+## Disclaimer
+**Friend with same name is disregarded:** When more than one friend in the friends list share the same name, it is not possible to unambiguously link interactions like messages, comments and posts to one friend. (e.g, if two friends of ‘Jan Wick’ share the name ‘Alex Nom’, it is not clear which one is referred to in the comments file containing sentences such as  “Jan Wick commented on Alex Nom’s post.” Similar unambiguity arises in identifying the friend from the participants list in message exchanges.) For this reason, we remove all such friends (who share the same name) from our analysis.
+
+**Generalization of Linear Regression Model:** In Gilbert et al.’s paper, the adjusted R-squared of the regression stated is 0.534, meaning that the variables in the regression only explain around 50% of what makes up tie strength. We have also made approximations in some of our beta coefficients and have different ways of measuring the metrics than the papers. 
+
+**Generalization of Positive Correlation between Tie Strength & Well-being:** We have based our project on Burke et al.’s (2016)  which states that a strong tie strength can have a positive effect on wellbeing; therefore, we assume that the tie strengths we predicted would give an insight to the degree of how well our mental state is. This model was created under this broad generalization and there are more studies that go more in-depth into well-being (Umberson, 2011); there are also other papers that point out the latter, that strong ties can cause stress or negative influence on wellbeing (Thoits, 1995). 
+
+**Uses proprietary software (IBM Watson Tone Analyser) for analysing tones of the conversation:** First 1000 API calls per month are free after which we need to move to a paid model. This project work makes an API call per friend in the friend’s list, hence to avoid exhausting the quota, we limit the analysis to the top 300 friends with the highest tie strength values (given by the linear regression model).
+
+
+## Reference
+  1. Moira Burke, Robert E. Kraut, The Relationship Between Facebook Use and Well-Being Depends on Communication Type and Tie Strength, Journal of Computer-Mediated Communication, Volume 21, Issue 4, 1 July 2016, Pages 265–281, https://doi.org/10.1111/jcc4.12162 
+  2. Moira Burke and Robert E. Kraut. 2014. Growing closer on facebook: changes in tie strength through social network site use. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '14). Association for Computing Machinery, New York, NY, USA, 4187–4196. DOI:https://doi.org/10.1145/2556288.2557094
+  3. Eric Gilbert and Karrie Karahalios. 2009. Predicting tie strength with social media. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '09). Association for Computing Machinery, New York, NY, USA, 211–220. DOI:https://doi.org/10.1145/1518701.1518736
+
