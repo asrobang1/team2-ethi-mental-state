@@ -1,27 +1,34 @@
 ## Dependencies
-  - Python 3
+  - Python 3 (or);
   - Jupyter Notebook or Jupyter Lab
 
 ## How to Run
   1. Clone this repository to your local computer. If you would like to test the tool on your own dataset, ensure that the zip folder containing your Facebook data is in the same directory as the files in this repository. 
-  2. Install all Python package dependencies by running `pip install -r requirements.txt` on your terminal. 
-  3. Open Jupyter Notebook or Jupyter Lab.
-  4. By default, the tool analyzes `facebook-sampledataset`. If you would like to test the tool on your own dataset,
+
+*P.S. your facebook dataset should be in `json`*
+  
+### Jupyter Notebook or Jupyter Lab steps:
+  2. Open Jupyter Notebook or Jupyter Lab.
+  3. By default, the tool analyzes `facebook-sampledataset`. If you would like to test the tool on your own dataset,
       - If your zip file ends with `tar`, uncomment line 4 in the first code block and change the line to reflect the path to your zip file. 
 `!tar -xvf {path_to_facebook_zip}`
       - If your zip file ends with `zip`, uncomment line 7 in the first code block and change the line to reflect the path to your zip file. 
 `!unzip {path_to_facebook_zip}`
-      - Change line 12 in the first code block to the name of your Facebook dataset. `os.path.join(os.getcwd(),'facebook-yourname')`
-  5. Run the notebook. 
-  6. Open terminal and run 
+      - Change line 12 in the first code block to the name of your Facebook dataset. `os.path.join(os.getcwd(),'facebook-username')`
+  4. Run the notebook. 
+  5. Open terminal and run 
 `python -m SimpleHTTPServer`
-Depending on your Python version, you may get the error 
-`C:\Python33\python.exe: No module named SimpleHTTPServer`
-In this case, run
-`python -m http.server 8000`
+    - Depending on your Python version, you may get the error `C:\Python33\python.exe: No module named SimpleHTTPServer`. In this case, run `python -m http.server 8000`
+  6. Go to http://localhost:8000 on your browser.
+  
+### Python
+  2. Install all Python package dependencies by running `pip install -r requirements.txt` on your terminal.
+  3. Unzip your facebook dataset.
+  4. Change directory on your terminal to the folder containing the clone repository
+  5. Run `python tie_strength.py facebook-username`
+  6. Run `python -m SimpleHTTPServer`
+    - Depending on your Python version, you may get the error `C:\Python33\python.exe: No module named SimpleHTTPServer`. In this case, run `python -m http.server 8000`
   7. Go to http://localhost:8000 on your browser.
-
-
 
 ## Project Scope
 New communication technologies are often met with questions about their impact on psychological well-being. The goal of this project is to give users insight into how Facebook data reflects their mental well-being by investigating social ties of Facebook friendships. To solve the problem, a predictive model was created to map Facebook data to tie strength and identify strong, and weak ties amongst Facebook friendships, as well as observe changes in psychological wellbeing depending on tie strength and the nature of communication.
