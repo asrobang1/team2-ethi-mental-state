@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="friendmenu.js"></script>
+</head>
+    <body style="background-color: #030303">
+        <div class="container">
+            <div class="leftpane" style="text-align:left;">
+                <div style="margin-left: 40px">
+                <h2>Tie Strength</h2>
+                <input onclick="change()" type="button" class="btn" value="1/3" id="myButton1" style="width: 100%;"></input>
+                <p id="myText1" style="color: #427bf0; line-height: 25px">What is the overall tie strength of your friendships on Facebook? How might this affect your mental wellbeing?</p>
+                </p>
+                <script>
+                    function change() {
+                        var elem = document.getElementById("myButton1");
+                        if (elem.value == "1/3"){ // second
+                            elem.value="2/3";
+                            document.getElementById("myText1").innerHTML = "New communication technologies are often met with questions about their impact on psychological well-being. Besides knowing a great part of your social network, a predictive model can be used to map your Facebook data to tie strength and identify strong and weak ties amongst your Facebook friendships!"
+                        }
+            
+                        else if (elem.value=="2/3") { // third
+                            elem.value = "3/3";
+                            document.getElementById("myText1").innerHTML =  "Your social interaction on Facebook can also be used to observe changes in your psychological well being depending on tie strength and the nature of your communication.";
+                        }
+                        else { //first
+                            elem.value = "1/3"
+                            document.getElementById("myText1").innerHTML = "What is the overall tie strength of your friendship on Facebook? How might this affect your mental wellbeing?"
+                        }
+                            }
+                </script>
+
+
+         
+                <!-- Beginning of modal code -->
+            <!-- "What is tie strength?" -->
+            <a href="#open-modal">
+                <div class="line fixed" style="font-size:16px; align-items: center; bottom: 160px;">
+                    <i class="fa fa-fast-forward" style="color:#427bf0; margin-right: 10px; margin-top: 5px"></i>
+                    <p style="color: white">What is tie strength?</p>
+                </div>
+            </a>
+            <div id="open-modal" class="modal-window">
+                <div>
+                    <a href="#close-modal" title="Close" class="modal-close">close &times;</a>
+                <div><b>Tie strength</b> is defined as a linear combination of the amount of time, the emotional intensity, the intimacy and reciprocal services which characterize the tie.</div>
+                <br>
+                <div><b>1:</b> Strong ties are the people you really trust, people whose social circles tightly overlap with your own. Often, they are also the people most like you! </div>
+                <br>
+                <div><b>0:</b> Weak ties are merely acquaintances. Weak ties often provide access to novel information, information not circulating in the closely knit network of strong ties.</div>
+                </div>
+            </div>
+
+             <!-- "How do they use this data?" -->
+             <a href="#open-modal1">
+                <div class="line fixed" style="font-size:16px; align-items: center; bottom: 120px;">
+                    <i class="fa fa-fast-forward" style="color:#427bf0; margin-right: 10px; margin-top: 5px"></i>
+                    <p style="color: white">How do they use this data?</p>
+                </div>
+            </a>
+            <div id="open-modal1" class="modal-window">
+                <div>
+                    <a href="#close-modal" title="Close" class="modal-close">close &times;</a>
+        
+                <div>With the rapid increase in social media usage, recent studies have explored its impact on mental health and wellbeing, as well as the potential to leverage the popularity and interactive features of social media to enhance interventions. Cases such as clinicians discovering suicidal ideation on Facebook through explicit statements and photos are examples of how our data may be used to obtain information about you within a clinical setting, to diagnose and treat disease. With that, ethical issues arise, including the principles of beneficence and maleficence, issues of privacy and confidentiality, and informed consent.</div>
+                </div>
+            </div>
+
+
+            <!-- "How do I stop them from collecting it?" -->
+            <a href="#open-modal2">
+                <div class="line fixed" style="font-size:16px; align-items: center; bottom: 80px;">
+                    <i class="fa fa-fast-forward" style="color:#427bf0; margin-right: 10px; margin-top: 5px"></i>
+                    <p style="color: white">How do I stop them from collecting it?</p>
+                </div>
+            </a>
+            <div id="open-modal2" class="modal-window">
+                <div>
+                    <a href="#close-modal" title="Close" class="modal-close">close &times;</a>
+                <div>It is difficult to imagine that a seemingly harmless action like messaging a friend can give Facebook so much information, and there is no easy way to stop this except for staying away from Messenger and favor a different messaging app.</div>
+                </div>
+            </div>
+
+            <!-- "How do I delete it?" -->
+            <a href="#open-modal3">
+                <div class="line fixed" style="font-size:16px; align-items: center; bottom: 40px;">
+                    <i class="fa fa-fast-forward" style="color:#427bf0; margin-right: 10px; margin-top: 5px"></i>
+                    <p style="color: white">How do I delete it ?</p>
+                </div>
+            </a>
+            <div id="open-modal3" class="modal-window">
+                <div>
+                    <a href="#close-modal" title="Close" class="modal-close">close &times;</a>
+                <div>You cannot really delete this data, neither can you stop it from being used for advertising. Facebook has perfect knowledge of your social network and who is closest to you. Deleting messages progressively might be a solution, let us know if you want us to build this into FaceErase, the Chrome extension we’ve built for people who subscribe as an Early Believer! If you want to at least make sure Facebook cannot read your messages, you can use Secret Conversations which are encrypted.</div>
+                </div>
+            </div>
+            <!-- End of modal code -->
+            
+
+
+
+                </div>
+            </div>
+            <div class="middlepane">
+                <h2 style="text-align: center">Graph of the quality of your friendships</h2>
+               <!-- <div id="chart"></div> -->
+
+               <div style="width: 20%; float:left; text-align:right"> <!-- For the back button -->
+                <button href="#back" class="btn" onclick="goBack()"> &lt back </button>
+               </div>
+               <div style="width:75%; float:right; text-align:left"> <!-- For the rest of the output-->
+
+                
+            <div style="margin-top: -20px">
+                <h1 id="name_result"></h1>
+            </div>
+            <p style="margin-top:-20px; color: #427bf0">Friend</p>
+
+            
+            <div class="line">
+                <p id="num_messages_result"></p>
+                <p style="color: #427bf0"> messages exchanged</p>
+            </div>
+
+            <div class="line">
+                <p id="days_since_being_friends"></p>
+                <p style="color: #427bf0"> days since being friends</p>
+            </div>
+
+            <div class="line">
+                <p id="days_since_last_communication"></p>
+                <p style="color: #427bf0"> days since last communication</p>
+            </div>
+            
+            <p style="font-size: 20px">Communication tones</p>
+          
+          
+            <div id="neutral"></div>
+            <div id="fear"></div>
+            <div id="sadness"></div>
+            <div id="joy"></div>
+            <div id="analytical"></div>
+            <div id="tentative"></div>
+            <div id="confident"></div>
+            <div id="anger"></div>
+
+            <div class="line" style="font-size: 20px; margin-top: 20px">
+                <p style="font-size: 20px">Tie strength: </p>
+                <p id="tie_strength_result" style="color: #427bf0"></p>
+                </div>
+
+
+
+               </div>
+            </div>
+            <div class="rightpane" >
+                <div style="height:80px"></div>
+                <div id="friendmenu"></div>
+            </div>
+          </div>
+
+        <!--Helper functions below-->
+       <script src="tones.js"></script>
+       <script>
+            document.getElementById("tie_strength_result").innerHTML=localStorage.getItem("tieStrength")
+            document.getElementById("name_result").innerHTML=localStorage.getItem("name");
+            document.getElementById("num_messages_result").innerHTML = localStorage.getItem("numMessages");
+            document.getElementById("days_since_being_friends").innerHTML = localStorage.getItem("daysSinceBeingFriends");
+            document.getElementById("days_since_last_communication").innerHTML = localStorage.getItem("daysSinceLastCommunication"); 
+      </script> 
+     
+      
+      <script>
+          if (localStorage.getItem("joyScore") != "-1" && localStorage.getItem("joyScore") != "-1.0"){
+              document.getElementById("joyScoreResult").innerHTML = localStorage.getItem("joyScore");
+          }
+          if (localStorage.getItem("fearScore") != "-1" && localStorage.getItem("fearScore") != "-1.0"){
+              document.getElementById("fearScoreResult").innerHTML = localStorage.getItem("fearScore");
+          }
+          if (localStorage.getItem("sadnessScore") != "-1" && localStorage.getItem("sadnessScore") != "-1.0"){
+              document.getElementById("sadnessScoreResult").innerHTML = localStorage.getItem("sadnessScore");
+          }
+          if (localStorage.getItem("analyticalScore") != "-1" && localStorage.getItem("analyticalScore") != "-1.0"){
+              document.getElementById("analyticalScoreResult").innerHTML = localStorage.getItem("analyticalScore");
+          }
+          if (localStorage.getItem("tentativeScore") != "-1" && localStorage.getItem("tentativeScore") != "-1.0"){
+              document.getElementById("tentativeScoreResult").innerHTML = localStorage.getItem("tentativeScore");
+          }
+          if (localStorage.getItem("confidentScore") != "-1" && localStorage.getItem("confidentScore") != "-1.0"){
+              document.getElementById("confidentScoreResult").innerHTML = localStorage.getItem("confidentScore");
+          }
+          if (localStorage.getItem("angerScore") != "-1" && localStorage.getItem("angerScore") != "-1.0"){
+              document.getElementById("angerScoreResult").innerHTML = localStorage.getItem("angerScore");
+          }
+
+      </script>
+      <script>
+          function goBack(){
+              window.location = "/"; // takes you back to the "home" screen
+          }
+      </script>
+    </body>
+</html>
