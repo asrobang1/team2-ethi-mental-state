@@ -27,11 +27,11 @@ In this case, run
 New communication technologies are often met with questions about their impact on psychological well-being. The goal of this project is to give users insight into how Facebook data reflects their mental well-being by investigating social ties of Facebook friendships. To solve the problem, a predictive model was created to map Facebook data to tie strength and identify strong, and weak ties amongst Facebook friendships, as well as observe changes in psychological wellbeing depending on tie strength and the nature of communication.
 ### Research
 Three main papers were used to supplement this project. 
-  1. Burke et al.’s ‘The Relationship Between Facebook Use and Well-Being Depends on Communication Type and Tie Strength’ (2016) showed that receiving more personalized communication—targeted, composed text—from strong ties is associated with improvements in well-being. With this, further research was done to understand how to predict tie strength using Facebook data.
+  1. Burke et al.’s *‘The Relationship Between Facebook Use and Well-Being Depends on Communication Type and Tie Strength’* (2016) showed that receiving more personalized communication—targeted, composed text—from strong ties is associated with improvements in well-being. With this, further research was done to understand how to predict tie strength using Facebook data.
   
-  2. Burke et al.’s ‘Growing closer on facebook: changes in tie strength through social network site use’ (2014) showed that composed direct communications on Facebook, including messages written to tie, comments written on tie’s content and posts written on tie’s wall was associated with significant increases in tie strength. On the other hand, other types of communication such as likes and pokes does not have a significant effect.
+  2. Burke et al.’s *‘Growing closer on facebook: changes in tie strength through social network site use’* (2014) showed that composed direct communications on Facebook, including messages written to tie, comments written on tie’s content and posts written on tie’s wall was associated with significant increases in tie strength. On the other hand, other types of communication such as likes and pokes does not have a significant effect.
   
-  3. Gilbert et al.’s ‘Predicting tie strength with social media’ (2009) concluded the top 15 predictive variables with highest standardized beta coefficients using a linear regression model to examine how Facebook data can predict tie strength. 
+  3. Gilbert et al.’s *‘Predicting tie strength with social media’* (2009) concluded the top 15 predictive variables with highest standardized beta coefficients using a linear regression model to examine how Facebook data can predict tie strength. 
 
 ## Solution
 In order to create a predictive model to determine a magnitude for tie strength, several metrics and a linear regression model was used.
