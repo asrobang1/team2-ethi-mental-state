@@ -10,11 +10,12 @@
 ### Jupyter Notebook or Jupyter Lab
   2. Open Jupyter Notebook or Jupyter Lab.
   3. By default, the tool analyzes `facebook-sampledataset`. If you would like to test the tool on your own dataset,
-      - If your zip file ends with `tar`, uncomment line 4 in the first code block and change the line to reflect the path to your zip file. 
-`!tar -xvf {path_to_facebook_zip}`
-      - If your zip file ends with `zip`, uncomment line 7 in the first code block and change the line to reflect the path to your zip file. 
+      - Option 1: Unzip your file manually then change line 12 in the first code block to the name of your Facebook dataset. `os.path.join(os.getcwd(),'facebook-username')`
+      - Option 2:
+        - If your zip file ends with `tar`, uncomment line 4 in the first code block and change the line to reflect the path to your zip file. `!tar -xvf {path_to_facebook_zip}`
+        - If your zip file ends with `zip`, uncomment line 7 in the first code block and change the line to reflect the path to your zip file. 
 `!unzip {path_to_facebook_zip}`
-      - Change line 12 in the first code block to the name of your Facebook dataset. `os.path.join(os.getcwd(),'facebook-username')`
+        - Change line 12 in the first code block to the name of your Facebook dataset. `os.path.join(os.getcwd(),'facebook-username')`
   4. Uncomment `!pip install -r requirements.txt` (on the second line of code block 2)
   5. Run the notebook. 
   6. Open terminal and run `python -m SimpleHTTPServer`
