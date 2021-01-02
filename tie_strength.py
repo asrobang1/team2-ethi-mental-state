@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import argparse
 import os # to iterate through the directory
 import json # to read the json files
 import pandas as pd # for data handling
@@ -18,6 +19,9 @@ import math
 from ibm_watson import ToneAnalyzerV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
+parser = argparse.ArgumentParser()
+parser.add_argument("echo", help="echo the string you use here")
+
 # corrects the decoding to decode as utf-8 instead of latin_1
 def parse_obj(obj):
     for key in obj:
@@ -33,7 +37,6 @@ def create_friends_dataframe(friends_json_file):
     fp = open(friends_json_file,)
     friends_json = json.load(fp,object_hook=parse_obj)
     friends_list = friends_json['friends']
-    print (len(friends_list))
     df = pd.DataFrame(friends_list,columns=['name','timestamp'])
     df['timestamp']= df['timestamp'].apply(lambda ts: datetime.utcfromtimestamp(ts))
     dt_now = datetime.utcnow()
@@ -286,8 +289,15 @@ def update_friend_tone(inbox_path,friend_analyze):
 
 
 if __name__ == '__main__':
+    args = parser.parse_args()
+
     # directory path to your file
-    startpath = os.path.join(os.getcwd(),'facebook-sampledataset') # change the folder name here
+    if (args):
+        print (f'Analyzing {args.echo}')
+        startpath = os.path.join(os.getcwd(),str(args.echo)) 
+    else:
+        print ('Analyzing facebook-sampledataset')
+        startpath = os.path.join(os.getcwd(),'facebook-sampledataset') 
 
     # creates a database of the user's friends 
     df = create_friends_dataframe(os.path.join(startpath,'friends','friends.json'))
