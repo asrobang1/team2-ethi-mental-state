@@ -5,7 +5,10 @@
 ## How to Run
   1. Clone this repository to your local computer. If you would like to test the tool on your own dataset, ensure that the zip folder containing your Facebook data is in the same directory as the files in this repository. 
 
-*P.S. your facebook dataset should be in `json`*
+*P.S.* 
+  - *Check out this [link](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for tutorial on cloning repository* 
+  - *Check out this [link](https://web.facebook.com/help/1701730696756992?_rdc=1&_rdr) for tutorial to download your facebook data*
+  - *When downloading your facebook dataset make sure it is in `json` format*
   
 ### Jupyter Notebook or Jupyter Lab
   2. Open Jupyter Notebook or Jupyter Lab.
