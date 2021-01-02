@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; */
+}
+
+h1,
+h2,
+p,
+span {
+  color: white;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 30px;
+  text-align: left;
+}
+
+.line h1,
+.line p,
+.line div {
+  display: inline;
+  vertical-align: top;
+  line-height: 28px;
+}
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 170px;
+  max-height: 100px;
+  pointer-events: none;
+  background-color: #030303;
+  color: #fff;
+  font-size: 15px;
+  text-align: left;
+  border: 2px solid #427bf0;
+  border-radius: 12px;
+  padding: 5px 5px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.btn {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #427bf0;
+  color: #427bf0;
+  outline: none;
+  border-radius: 12px;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  border-color: #47a0f4;
+  cursor: pointer;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.tooltipbox {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipbox .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 15px;
+  text-align: left;
+  border: 2px solid #427bf0;
+  border-radius: 12px;
+  padding: 5px 5px;
+
+  /* Positions the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 105%;
+}
+
+.tooltipbox:hover .tooltiptext {
+  visibility: visible;
+}
+
+.menutooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.menutooltip .menutooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 15px;
+  text-align: left;
+  border: 2px solid #427bf0;
+  border-radius: 12px;
+  padding: 5px 5px;
+
+  /* Positions the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.menutooltip:hover .menutooltiptext {
+  visibility: visible;
+}
+
+span {
+  padding-left: 10px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+svg {
+  /* need this */
+  /* display: block;
+  margin-top: 50px;
+  display: block; */
+  /* padding-left: 10%; */
+  background-color: transparent;
+  display: block;
+  margin: auto;
+}
+
+#chart {
+  /* width: 100%;
+  height: 100%; */
+  /* margin: auto; */
+  /* margin-top: 50px;
+  /* margin-left: 25%;
+    margin-right: 10%; */
+  /* display: block; 
+  margin-left: 25%; */
+
+  background-color: transparent;
+}
+
+.clear {
+  clear: both;
+}
+
+#dropdown_container {
+  width: 50%;
+}
+.selection {
+  width: 50%;
+}
+
+table {
+  /* display: inline-block; */
+  border-collapse: collapse;
+  border: 2px black solid;
+  font: 12px sans-serif;
+  color: white;
+}
+
+td {
+  border: 1px black solid;
+  padding: 5px;
+}
+
+h2.align-left {
+  font-weight: 100;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 20px;
+  margin: 0;
+  position: absolute;
+}
+
+h2.align-center {
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+}
+
+#wrapper {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.leftpane {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.middlepane {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.rightpane {
+  width: 25%;
+  height: 100%;
+  position: relative;
+  float: right;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+div.fixed {
+  position: absolute;
+
+  /* width: 30%; */
+}
+
+/* POPUP MODAL CSS */
+.modal-window {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.75);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.modal-window:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-window > div {
+  border-radius: 15px;
+  width: 400px;
+  border: 2px solid #427bf0;
+  position: relative;
+  margin: 10% auto;
+  padding: 2rem;
+  background: #303030;
+  color: white;
+}
+
+.modal-window header {
+  font-weight: bold;
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+
+.modal-close:hover {
+  color: #427bf0;
+}
+
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
