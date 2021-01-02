@@ -1,17 +1,17 @@
-Dependencies
-Python 3
-Jupyter Notebook or Jupyter Lab
+## Dependencies
+- Python 3
+- Jupyter Notebook or Jupyter Lab
 
-How to Run
-Clone this repository to your local computer. If you would like to test the tool on your own dataset, ensure that the zip folder containing your Facebook data is in the same directory as the files in this repository. 
-Install all Python package dependencies by running `pip install -r requirements.txt` on your terminal. 
-Open Jupyter Notebook or Jupyter Lab.
-By default, the tool analyzes `facebook-sampledataset`. If you would like to test the tool on your own dataset,
-If your zip file ends with `tar`, uncomment line 4 in the first code block and change the line to reflect the path to your zip file. 
+## How to Run
+1. Clone this repository to your local computer. If you would like to test the tool on your own dataset, ensure that the zip folder containing your Facebook data is in the same directory as the files in this repository. 
+2. Install all Python package dependencies by running `pip install -r requirements.txt` on your terminal. 
+3. Open Jupyter Notebook or Jupyter Lab.
+4. By default, the tool analyzes `facebook-sampledataset`. If you would like to test the tool on your own dataset,
+5. If your zip file ends with `tar`, uncomment line 4 in the first code block and change the line to reflect the path to your zip file. 
 `!tar -xvf {path_to_facebook_zip}`
-If your zip file ends with `zip`, uncomment line 7 in the first code block and change the line to reflect the path to your zip file. 
+6. If your zip file ends with `zip`, uncomment line 7 in the first code block and change the line to reflect the path to your zip file. 
 `!unzip {path_to_facebook_zip}`
-Change line 12 in the first code block to the name of your Facebook dataset. `os.path.join(os.getcwd(),'facebook-yourname')`
+7. Change line 12 in the first code block to the name of your Facebook dataset. `os.path.join(os.getcwd(),'facebook-yourname')`
 Run the notebook. 
 Open terminal and run 
 `python -m SimpleHTTPServer`
