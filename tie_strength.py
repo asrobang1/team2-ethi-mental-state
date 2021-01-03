@@ -339,8 +339,9 @@ if __name__ == '__main__':
     for friend in friend_analyze:
         update_friend_tone(os.path.join(startpath,'messages','inbox'),friend)
     
-    # change nan values for tone to neutral
-    df['tone'] = df['tone'].fillna('neutral')
+    # change nan and "" values for tone to neutral
+    df['tone'] = df['tone'].fillna('Neutral')
+    df['tone'] = df['tone'].replace("", 'Neutral')
     # drop unneeded metrics for visualization
     df.drop(columns=['comment frequency', 'post frequency', 'empath', 'chat hash', 'vader positivity'], inplace = True) 
     # change some of the type of the values for visualization
