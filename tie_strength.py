@@ -12,8 +12,6 @@ from empath import Empath
 from datetime import datetime
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.cluster import KMeans
-from sklearn.preprocessing import MinMaxScaler
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import math
 from ibm_watson import ToneAnalyzerV3
