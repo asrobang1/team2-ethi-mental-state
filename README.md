@@ -1,18 +1,18 @@
 ## Dependencies
   - Python 3.6 or higher
-  - Jupyter Notebook or Jupyter Lab
+  - Jupyter Notebook or Jupyter Lab to use `tie_strength.ipynb` (optional)
 
 ## How to Run
-  1. Clone this repository to your local computer. If you would like to test the tool on your own dataset, ensure that the zip folder containing your Facebook data is in the same directory as the files in this repository. 
+  1. Clone this repository to your local computer. 
 
 *P.S.* 
   - *Check out this [link](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for tutorial on cloning repository* 
   - *Check out this [link](https://web.facebook.com/help/1701730696756992?_rdc=1&_rdr) for tutorial to download your facebook data*
   - *When downloading your facebook dataset make sure it is in `json` format*
   
-### Jupyter Notebook or Jupyter Lab
+### Method 1: Jupyter Notebook or Jupyter Lab
   2. Open `tie_strength.ipynb` on Jupyter Notebook or Jupyter Lab.
-  3. By default, the tool analyzes `facebook-sampledataset`. If you would like to test the tool on your own dataset,
+  3. By default, the tool analyzes `facebook-sampledataset`. If you would like to test the tool on your own dataset, ensure that the zip folder containing your Facebook data is in the same directory as `tie_strength.ipynb`.
       - Option 1: Unzip your file manually then change line 12 in the first code block to the name of your Facebook dataset. `os.path.join(os.getcwd(),'facebook-username')`
       - Option 2:
         - If your zip file ends with `tar`, uncomment line 4 in the first code block and change the line to reflect the path to your zip file. `!tar -xvf {path_to_facebook_zip}`
@@ -25,11 +25,11 @@
       - Depending on your Python version, you may get the error `C:\Python33\python.exe: No module named SimpleHTTPServer`. In this case, run `python -m http.server 8000`
   7. Go to http://localhost:8000 on your browser.
   
-### Python
+### Method 2: Python (CLI)
   2. Install all Python package dependencies by running `pip install -r requirements.txt` on your terminal.
   3. Unzip your facebook dataset.
   4. Change directory on your terminal to the folder containing the clone repository
-  5. Run `python tie_strength.py facebook-username`
+  5. Run `python tie_strength.py path/to/facebook-dataset`
   6. Run `python -m SimpleHTTPServer`
       - Depending on your Python version, you may get the error `C:\Python33\python.exe: No module named SimpleHTTPServer`. In this case, run `python -m http.server 8000`
   7. Go to http://localhost:8000 on your browser.
