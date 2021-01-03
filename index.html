@@ -15,27 +15,36 @@
       <div class="container" style="height:max-content">
         <div class="leftpane" style="text-align:left;">
             <div style="margin-left: 40px">
-            <h2>Tie Strength</h2>
-            <input onclick="change()" type="button" class="btn" value="1/3" id="myButton1" style="width: 100%;"></input>
+            <h2>Tie Strength & Well-Being</h2>
+            <input onclick="change()" type="button" class="btn" value="1/5" id="myButton1" style="width: 100%;"></input>
             <p id="myText1" style="color: #427bf0; line-height: 25px">What is the overall tie strength of your friendships on Facebook? How might this affect your mental wellbeing?</p>
             </p>
             <script>
                 function change() {
                     var elem = document.getElementById("myButton1");
-                    if (elem.value == "1/3"){ // second
-                        elem.value="2/3";
-                        document.getElementById("myText1").innerHTML = "New communication technologies are often met with questions about their impact on psychological well-being. Besides knowing a great part of your social network, a predictive model can be used to map your Facebook data to tie strength and identify strong and weak ties amongst your Facebook friendships!"
-                    }
-        
-                    else if (elem.value=="2/3") { // third
-                        elem.value = "3/3";
-                        document.getElementById("myText1").innerHTML =  "Your social interaction on Facebook can also be used to observe changes in your psychological well being depending on tie strength and the nature of your communication.";
-                    }
-                    else { //first
-                        elem.value = "1/3"
-                        document.getElementById("myText1").innerHTML = "What is the overall tie strength of your friendships on Facebook? How might this affect your mental wellbeing?"
-                    }
+                        if (elem.value == "1/5"){ // second
+                            elem.value="2/5";
+                            document.getElementById("myText1").innerHTML = "New communication technologies are often met with questions about their impact on psychological well-being. Besides knowing a great part of your social network, a predictive model can be used to map your Facebook data to tie strength and identify strong and weak ties amongst your Facebook friendships!"
                         }
+            
+                        else if (elem.value=="2/5") { // third
+                            elem.value = "3/5";
+                            document.getElementById("myText1").innerHTML =  "Your social interaction on Facebook can also be used to observe changes in your psychological well being depending on tie strength and the nature of your communication.";
+                        }
+
+                        else if (elem.value == "3/5") { // fourth 
+                            elem.value = "4/5";
+                            document.getElementById("myText1").innerHTML = "To give you more insight into your Facebook friendships, the Watson tone analyzer analyzes the emotion and tone of your messages—anger, fear, joy, sadness, analytical, confident, tentative, and neutral."
+                        }
+                        
+                        else if (elem.value == "4/5") { // fifth 
+                            elem.value = "5/5";
+                            document.getElementById("myText1").innerHTML = "Explore your friendships by navigating the graphs! The size of the nodes correspond to the predicted tie strengths of your Facebook friendships. Beyond that, you’ll see clusters that correspond to the tone analyzer, illustrating the most prominent tone of your messages based on the color of the node."
+                        }    else { //first
+                            elem.value = "1/5"
+                            document.getElementById("myText1").innerHTML = "What is the overall tie strength of your friendships on Facebook? How might this affect your mental wellbeing?"
+                        }
+                            }
             </script>
 
             <!-- Beginning of modal code -->

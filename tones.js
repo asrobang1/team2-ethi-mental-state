@@ -179,9 +179,9 @@ var anger = function () {
 /* Sets the tooltip and tie strength percentage for the "progress bar" on the friend.html page */
 var tiestrength = function () {
   tooltipOne =
-    "Weak ties are merely acquaintances. Weak ties often provide access to novel information, information not circulating in the closely knit network of strong ties.";
+    "<b>Weak ties</b> are merely acquaintances. They often provide access to novel information, information not circulating in the closely knit network of strong ties.<br><br>Weak ties are less likely to provide empathetic support, but instead provide access to new opportunities and ideas. Receiving communication from weak ties is not associated with improvements in wellbeing.";
   tooltipTwo =
-    "Strong ties are the people you really trust, people whose social circles tightly overlap with your own. Often, they are also the people most like you! ";
+    "<b>Strong ties</b> are the people you really trust, people whose social circles tightly overlap with your own. Often, they are also the people most like you!<br><br>Strong ties provide more effortful, empathic support; everyday support received from strong ties is what promotes well-being. More specifically, receiving direct communication from strong ties was linked to improvements in well-being.";
   var tiestrengthscore = localStorage.getItem("tieStrength") * 100;
   let root = document.documentElement;
   root.style.setProperty("--progressscore", tiestrengthscore + "%");
