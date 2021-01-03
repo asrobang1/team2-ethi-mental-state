@@ -338,7 +338,10 @@ if __name__ == '__main__':
 
     for friend in friend_analyze:
         update_friend_tone(os.path.join(startpath,'messages','inbox'),friend)
-
+    
+    # change nan values for tone to neutral
+    df['tone'] = df['tone'].fillna('neutral')
+    # drop unneeded metrics for visualization
     df.drop(columns=['comment frequency', 'post frequency', 'empath', 'chat hash', 'vader positivity'], inplace = True) 
     # change some of the type of the values for visualization
     int_metrics = ['days since being friends', 'days since last communication']
@@ -352,6 +355,7 @@ if __name__ == '__main__':
     df_ten = df.copy()
     df_ten = df_ten.head(10)
     df_ten = df_ten[['name', 'tone', 'tie strength']]
+    df_ten.columns = ['Name', 'Tone', 'Tie Strength']
     df_ten.to_csv('df_ten.csv',index=False)
     
     df = df.sort_values(by = ['name'], ascending = True) # sort alphabetically
