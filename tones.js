@@ -1,3 +1,4 @@
+/* These functions set the css for the various communication tone results to be rendered on the friend.html page */
 var render = function (template, node) {
   if (!node) return;
   node.innerHTML = typeof template === "function" ? template() : template;
@@ -9,7 +10,8 @@ var neutral = function () {
   if (
     localStorage.getItem("tone") == "" ||
     localStorage.getItem("tone") == "-1" ||
-    localStorage.getItem("tone") == "-1.0"
+    localStorage.getItem("tone") == "-1.0" ||
+    localStorage.getItem("tone") == "neutral"
   ) {
     neutral =
       '<div class="circle" style="background-color: #cecece">' +
@@ -26,7 +28,6 @@ var fear = function () {
     localStorage.getItem("fearScore") != "-1" &&
     localStorage.getItem("fearScore") != "-1.0"
   ) {
-    // valid fear score value
     tooltipText =
       "<b>Fear:</b> A response to impending danger. It is a survival mechanism that is a reaction to some negative stimulus. It may be a mild caution or any extreme phobia";
 
@@ -94,10 +95,6 @@ var analytical = function () {
     localStorage.getItem("analyticalScore") != "-1" &&
     localStorage.getItem("analyticalScore") != "-1.0"
   ) {
-    // valid
-    // analytical =
-    //   '<div><div class="circle" style="background-color: #235fd0"></div><span>Analytical</span><span style="color: #235fd0" id="analyticalScoreResult"></span></div><div style="height:10px"></div>';
-
     tooltipText =
       "<b>Analytical:</b> A person's reasoning and analytical attitude about things.";
 
@@ -120,10 +117,6 @@ var tentative = function () {
     localStorage.getItem("tentativeScore") != "-1" &&
     localStorage.getItem("tentativeScore") != "-1.0"
   ) {
-    // valid
-    // tentative =
-    //   '<div><div class="circle" style="background-color: #6ae2cd"></div><span>Tentative</span><span style="color: #6ae2cd" id="tentativeScoreResult"></span></div><div style="height:10px"></div>';
-
     tooltipText = "<b>Tentative:</b> A person's degree of inhibition.";
 
     tentative =
@@ -145,10 +138,6 @@ var confident = function () {
     localStorage.getItem("confidentScore") != "-1" &&
     localStorage.getItem("confidentScore") != "-1.0"
   ) {
-    // valid
-    // confident =
-    //   '<div><div class="circle" style="background-color: #532d7f"></div><span>Confident</span><span style="color: #532d7f" id="confidentScoreResult"></span></div><div style="height:10px"></div>';
-
     tooltipText = "<b>Confident:</b> A person's degree of certainty.";
 
     confident =
@@ -170,10 +159,6 @@ var anger = function () {
     localStorage.getItem("angerScore") != "-1" &&
     localStorage.getItem("angerScore") != "-1.0"
   ) {
-    // valid
-    // anger =
-    //   '<div><div class="circle" style="background-color: #d52f2e"></div><span>Anger</span><span style="color: #d52f2e" id="angerScoreResult"></span></div><div style="height:10px"></div>';
-
     tooltipText =
       "<b>Anger:</b> Evoked due to injustice, conflict, humiliation, negligence or betrayal. If anger is active, the individual attacks the target, verbally or physically. If anger is passive, the person silently sulks and feels tension and hostility.";
 
@@ -191,6 +176,26 @@ var anger = function () {
   return anger;
 };
 
+/* Sets the tooltip and tie strength percentage for the "progress bar" on the friend.html page */
+var tiestrength = function () {
+  tooltipOne =
+    "Weak ties are merely acquaintances. Weak ties often provide access to novel information, information not circulating in the closely knit network of strong ties.";
+  tooltipTwo =
+    "Strong ties are the people you really trust, people whose social circles tightly overlap with your own. Often, they are also the people most like you! ";
+  var tiestrengthscore = localStorage.getItem("tieStrength") * 100;
+  let root = document.documentElement;
+  root.style.setProperty("--progressscore", tiestrengthscore + "%");
+  result =
+    divider +
+    "<div class='progress'>" +
+    "<p class='alignleft bottomtooltip'>0<span class='bottomtooltiptext'>" +
+    tooltipOne +
+    "</p><p class='alignright bottomtooltip'>1<span class='bottomtooltiptext'>" +
+    tooltipTwo;
+  ("</p></div>");
+  return result;
+};
+
 render(neutral, document.querySelector("#neutral"));
 render(fear, document.querySelector("#fear"));
 render(joy, document.querySelector("#joy"));
@@ -199,3 +204,4 @@ render(analytical, document.querySelector("#analytical"));
 render(tentative, document.querySelector("#tentative"));
 render(confident, document.querySelector("#confident"));
 render(anger, document.querySelector("#anger"));
+render(tiestrength, document.querySelector("#tiestrength"));

@@ -1,4 +1,7 @@
-d3.csv("df_leaderboard.csv", function (error, data) {
+// Builds a dropdown menu for you to select a friend from,
+// and passes the other data fields for that friend to be displayed
+// on that friend.html page
+d3.csv("df.csv", function (error, data) {
   var select = d3.select("#friendmenu").append("div").append("select");
 
   select.on("change", function (d) {
@@ -46,7 +49,6 @@ d3.csv("df_leaderboard.csv", function (error, data) {
     .data(data)
     .enter()
     .append("option")
-    // .attr("value", "-- Select a friend --")
     .attr("value", function (d) {
       res = [
         d.name,

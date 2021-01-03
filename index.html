@@ -1,3 +1,4 @@
+<!--HOME PAGE-->
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
@@ -11,7 +12,7 @@
     <script src="friendmenu.js"></script>
 </head>
 <body style="background-color: #030303">
-      <div class="container">
+      <div class="container" style="height:max-content">
         <div class="leftpane" style="text-align:left;">
             <div style="margin-left: 40px">
             <h2>Tie Strength</h2>
@@ -32,29 +33,13 @@
                     }
                     else { //first
                         elem.value = "1/3"
-                        document.getElementById("myText1").innerHTML = "What is the overall tie strength of your friendship on Facebook? How might this affect your mental wellbeing?"
+                        document.getElementById("myText1").innerHTML = "What is the overall tie strength of your friendships on Facebook? How might this affect your mental wellbeing?"
                     }
                         }
             </script>
 
             <!-- Beginning of modal code -->
-            <!-- "What is tie strength?" -->
-            <a href="#open-modal">
-                <div class="line fixed" style="font-size:16px; align-items: center; bottom: 160px;">
-                    <i class="fa fa-fast-forward" style="color:#427bf0; margin-right: 10px; margin-top: 5px"></i>
-                    <p style="color: white">What is tie strength?</p>
-                </div>
-            </a>
-            <div id="open-modal" class="modal-window">
-                <div>
-                    <a href="#close-modal" title="Close" class="modal-close">close &times;</a>
-                <div><b>Tie strength</b> is defined as a linear combination of the amount of time, the emotional intensity, the intimacy and reciprocal services which characterize the tie.</div>
-                <br>
-                <div><b>1:</b> Strong ties are the people you really trust, people whose social circles tightly overlap with your own. Often, they are also the people most like you! </div>
-                <br>
-                <div><b>0:</b> Weak ties are merely acquaintances. Weak ties often provide access to novel information, information not circulating in the closely knit network of strong ties.</div>
-                </div>
-            </div>
+
 
              <!-- "How do they use this data?" -->
              <a href="#open-modal1">
@@ -67,7 +52,7 @@
                 <div>
                     <a href="#close-modal" title="Close" class="modal-close">close &times;</a>
         
-                <div>With the rapid increase in social media usage, recent studies have explored its impact on mental health and wellbeing, as well as the potential to leverage the popularity and interactive features of social media to enhance interventions. Cases such as clinicians discovering suicidal ideation on Facebook through explicit statements and photos are examples of how our data may be used to obtain information about you within a clinical setting, to diagnose and treat disease. With that, ethical issues arise, including the principles of beneficence and maleficence, issues of privacy and confidentiality, and informed consent.</div>
+                <div>With the rapid increase in social media usage, recent studies have explored its impact on mental health and wellbeing, as well as the potential to leverage the popularity and interactive features of social media to enhance interventions.<br><br>Cases such as clinicians discovering suicidal ideation on Facebook through explicit statements and photos are examples of how our data may be used to obtain information about you within a clinical setting, to diagnose and treat disease. With that, ethical issues arise, including the principles of beneficence and maleficence, issues of privacy and confidentiality, and informed consent.</div>
                 </div>
             </div>
 
@@ -96,7 +81,7 @@
             <div id="open-modal3" class="modal-window">
                 <div>
                     <a href="#close-modal" title="Close" class="modal-close">close &times;</a>
-                <div>You cannot really delete this data, neither can you stop it from being used for advertising. Facebook has perfect knowledge of your social network and who is closest to you. Deleting messages progressively might be a solution, let us know if you want us to build this into FaceErase, the Chrome extension we’ve built for people who subscribe as an Early Believer! If you want to at least make sure Facebook cannot read your messages, you can use Secret Conversations which are encrypted.</div>
+                <div>You cannot really delete this data, neither can you stop it from being used for advertising. Facebook has perfect knowledge of your social network and who is closest to you.<br><br>Deleting messages progressively might be a solution, let us know if you want us to build this into <a href="https://chrome.google.com/webstore/detail/faceerase-erase-your-data/flnpbpogaabapnbmginhjogpblpgelni/">FaceErase</a>, the Chrome extension we’ve built for people who <a href="https://beta.ethi.me/profile/plans">subscribe as an Early Believer</a>! If you want to at least make sure Facebook cannot read your messages, you can use Secret Conversations which are encrypted.</div>
                 </div>
             </div>
             <!-- End of modal code -->
@@ -104,20 +89,114 @@
         </div>
     </div>
         <div class="middlepane">
-            <h2 style="text-align: center">Graph of the quality of your friendships</h2>
+            <div style="height: 85px"></div>
            <div id="chart"></div>
+
+
+        <!--Beginning of tone legend grid-->
+           <div style="margin-top: 20px">
+            <div class="legend-grid legend-text">
+
+                <!--FEAR-->
+                <div class="toptooltip">
+                        <p style="margin-left: 10px">Fear</p>
+                        <div class="legend-container">
+                            <div class="legend-item one" style="--color1: #ABC593">&lt 0.5</div>
+                            <div class="legend-item two" style="--color2: #88B063">0.5 &lt 0.75</div>
+                            <div class="legend-item three" style="--color3: #3D5C31">&gt 0.75</div>
+                        </div>
+                    <span class="toptooltiptext"><b>Fear:</b> A response to impending danger. It is a survival mechanism that is a reaction to some negative stimulus. It may be a mild caution or any extreme phobia</span>
+                </div>
+
+                <!--SADNESS-->
+                <div class="toptooltip">
+                            <p style="margin-left: 10px">Sadness</p>
+                            <div class="legend-container">
+                                <div class="legend-item one" style="--color1: #B8DFEF">&lt 0.5</div>
+                                <div class="legend-item two" style="--color2: #7EC1DE">0.5 &lt 0.75</div>
+                                <div class="legend-item three" style="--color3: #2D6DAD">&gt 0.75</div>
+                            </div>
+                    <span class="toptooltiptext"><b>Sadness:</b> Indicates a feeling of loss and disadvantage. When a person can be observed to be quiet, less energetic and withdrawn, it may be inferred that sadness exists.</span>
+                </div>
+
+                <!--ANALYTICAL-->
+                <div class="toptooltip">
+                    <p style="margin-left: 10px">Analytical</p>
+                    <div class="legend-container">
+                        <div class="legend-item one" style="--color1: #A4D3FB">&lt 0.5</div>
+                        <div class="legend-item two" style="--color2: #49A3F0">0.5 &lt 0.75</div>
+                        <div class="legend-item three" style="--color3: #235FD0">&gt 0.75</div>
+                    </div>
+                    <span class="toptooltiptext"><b>Analytical:</b> A person's reasoning and analytical attitude about things.</span>
+                </div>
+
+                <!--JOY-->
+                <div class="toptooltip">
+                    <p style="margin-left: 10px">Joy</p>
+                    <div class="legend-container">
+                        <div class="legend-item one" style="--color1: #FFF9C9">&lt 0.5</div>
+                        <div class="legend-item two" style="--color2: #FDF086">0.5 &lt 0.75</div>
+                        <div class="legend-item three" style="--color3: #F9D653">&gt 0.75</div>
+                    </div>
+                    <span class="toptooltiptext"><b>Joy:</b> Joy or happiness has shades of enjoyment, satisfaction and pleasure. There is a sense of well-being, inner peace, love, safety and contentment.</span>
+                </div>
+
+                <!--TENTATIVE-->
+                <div class="toptooltip">
+                    <p style="margin-left: 10px">Tentative</p>
+                    <div class="legend-container">
+                        <div class="legend-item one" style="--color1: #E0FFFA">&lt 0.5</div>
+                        <div class="legend-item two" style="--color2: #ADFCEF">0.5 &lt 0.75</div>
+                        <div class="legend-item three" style="--color3: #6AE2CD">&gt 0.75</div>
+                    </div>
+                    <span class="toptooltiptext"><b>Tentative:</b> A person's degree of inhibition.</span>
+                </div>
+
+                <!--CONFIDENT-->
+                <div class="toptooltip">
+                    <p style="margin-left: 10px">Confident</p>
+                    <div class="legend-container">
+                        <div class="legend-item one" style="--color1: #DBCDEF">&lt 0.5</div>
+                        <div class="legend-item two" style="--color2: #9F7DD2">0.5 &lt 0.75</div>
+                        <div class="legend-item three" style="--color3: #532D7F">&gt 0.75</div>
+                    </div>
+                    <span class="toptooltiptext"><b>Confident:</b> A person's degree of certainty.</span>
+                </div>
+
+                <!--ANGER-->
+                <div class="toptooltip">
+                    <p style="margin-left: 10px">Anger</p>
+                    <div class="legend-container">
+                        <div class="legend-item one" style="--color1: #F9D5D0">&lt 0.5</div>
+                        <div class="legend-item two" style="--color2: #F2A59A">0.5 &lt 0.75</div>
+                        <div class="legend-item three" style="--color3: #D52F2E">&gt 0.75</div>
+                    </div>
+                    <span class="toptooltiptext"><b>Anger:</b> Evoked due to injustice, conflict, humiliation, negligence or betrayal. If anger is active, the individual attacks the target, verbally or physically. If anger is passive, the person silently sulks and feels tension and hostility.</span>
+                </div>
+
+                <!--NEUTRAL-->
+                <div>
+                    <p style="margin-left: 10px">Neutral</p>
+                    <div class="legend-container" style="background-color: #cecece; height: 15px"></div>
+                </div>
+
+ 
+            </div> <!--End of legend grid-->
         </div>
-        <div class="rightpane" >
+        </div>
+        <div class="rightpane">
             <div style="height:80px"></div>
-          <div id="friendmenu"></div>
+            <div style="padding-left: 40px; padding-right: 20px">
+            <div id="friendmenu"></div>
+            <div style="height:40px"></div>
+            <h2 style="font-size: 20px;">Friend leaderboard</h2>
+            <div id="friendtable"></div>
+            </div>
         </div>
       </div>
 
 
-
-</body>
-    
-    
-
-
+        <!--more helper scripts-->
+        <script src="tones.js"></script>
+    </body>
 </html>

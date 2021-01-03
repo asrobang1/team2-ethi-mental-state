@@ -5,9 +5,9 @@ var padding = 1.5, // separation between same-color nodes
   clusterPadding = 24, // separation between different-color nodes
   maxRadius = 500,
   width = 500,
-  height = 500;
+  height = 400;
 
-d3.text("df_leaderboard.csv", function (error, text) {
+d3.text("df.csv", function (error, text) {
   if (error) throw error;
   var data = d3.csv.parse(text);
 
