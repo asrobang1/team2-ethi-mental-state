@@ -21,7 +21,7 @@
         - Change line 12 in the first code block to the name of your Facebook dataset. `os.path.join(os.getcwd(),'facebook-username')`
   4. Uncomment `!pip install -r requirements.txt` (on the second line of code block 2)
   5. Run the notebook. 
-  6. Open terminal and run `python -m SimpleHTTPServer`
+  6. Open terminal and go to the directory of the clone repository file, then run `python -m SimpleHTTPServer`
       - Depending on your Python version, you may get the error `C:\Python33\python.exe: No module named SimpleHTTPServer`. In this case, run `python -m http.server 8000`
   7. Go to http://localhost:8000 on your browser.
   
