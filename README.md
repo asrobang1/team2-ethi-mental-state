@@ -11,7 +11,7 @@
   - *When downloading your facebook dataset make sure it is in `json` format*
   
 ### Jupyter Notebook or Jupyter Lab
-  2. Open Jupyter Notebook or Jupyter Lab.
+  2. Open `tie_strength.ipynb` on Jupyter Notebook or Jupyter Lab.
   3. By default, the tool analyzes `facebook-sampledataset`. If you would like to test the tool on your own dataset,
       - Option 1: Unzip your file manually then change line 12 in the first code block to the name of your Facebook dataset. `os.path.join(os.getcwd(),'facebook-username')`
       - Option 2:
