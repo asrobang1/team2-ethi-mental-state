@@ -1,5 +1,5 @@
 ## Dependencies
-  - Python 3 (or);
+  - Python 3.6 or higher
   - Jupyter Notebook or Jupyter Lab
 
 ## How to Run
