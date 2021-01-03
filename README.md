@@ -22,7 +22,7 @@
   4. Uncomment `!pip install -r requirements.txt` (on the second line of code block 2)
   5. Run the notebook. 
   6. Open terminal and run `python -m SimpleHTTPServer`
-    - Depending on your Python version, you may get the error `C:\Python33\python.exe: No module named SimpleHTTPServer`. In this case, run `python -m http.server 8000`
+      - Depending on your Python version, you may get the error `C:\Python33\python.exe: No module named SimpleHTTPServer`. In this case, run `python -m http.server 8000`
   7. Go to http://localhost:8000 on your browser.
   
 ### Python
@@ -31,7 +31,7 @@
   4. Change directory on your terminal to the folder containing the clone repository
   5. Run `python tie_strength.py facebook-username`
   6. Run `python -m SimpleHTTPServer`
-    - Depending on your Python version, you may get the error `C:\Python33\python.exe: No module named SimpleHTTPServer`. In this case, run `python -m http.server 8000`
+      - Depending on your Python version, you may get the error `C:\Python33\python.exe: No module named SimpleHTTPServer`. In this case, run `python -m http.server 8000`
   7. Go to http://localhost:8000 on your browser.
 
 ## Project Scope
