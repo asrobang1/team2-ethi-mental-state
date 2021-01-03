@@ -17,8 +17,7 @@ import math
 from ibm_watson import ToneAnalyzerV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
-parser = argparse.ArgumentParser()
-parser.add_argument("echo", help="echo the string you use here")
+
 
 # corrects the decoding to decode as utf-8 instead of latin_1
 def parse_obj(obj):
@@ -287,15 +286,14 @@ def update_friend_tone(inbox_path,friend_analyze):
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("path", help="path to facebook dataset", nargs='?', default = 'facebook-sampledataset')
     args = parser.parse_args()
 
     # directory path to your file
-    if (args):
-        print (f'Analyzing {args.echo}')
-        startpath = os.path.join(os.getcwd(),str(args.echo)) 
-    else:
-        print ('Analyzing facebook-sampledataset')
-        startpath = os.path.join(os.getcwd(),'facebook-sampledataset') 
+    print (f'Analyzing {args.path}')
+    startpath = os.path.join(str(args.path)) 
+
 
     # creates a database of the user's friends 
     df = create_friends_dataframe(os.path.join(startpath,'friends','friends.json'))
