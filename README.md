@@ -35,7 +35,7 @@
   7. Go to http://localhost:8000 on your browser.
 
 ## Project Scope
-New communication technologies are often met with questions about their impact on psychological well-being. The goal of this project is to give users insight into how Facebook data reflects their mental well-being by investigating social ties of Facebook friendships. To solve the problem, a predictive model was created to map Facebook data to tie strength and identify strong, and weak ties amongst Facebook friendships, as well as observe changes in psychological wellbeing depending on tie strength and the nature of communication.
+New communication technologies are often met with questions about their impact on psychological well-being. The goal of this project is to give users insight into how Facebook data reflects their mental well-being by investigating social ties of Facebook friendships. To solve the problem, a predictive model was created to map Facebook data to tie strength and identify strong and weak ties amongst Facebook friendships, as well as observe changes in psychological wellbeing depending on tie strength and the nature of communication.
 ### Research
 Three main papers were used to supplement this project. 
   1. Burke et al.’s *‘The Relationship Between Facebook Use and Well-Being Depends on Communication Type and Tie Strength’* (2016) showed that receiving more personalized communication—targeted, composed text—from strong ties is associated with improvements in well-being. With this, further research was done to understand how to predict tie strength using Facebook data.
