@@ -6,7 +6,7 @@ ibm-watson==5.0.0
 idna<3,>=2.5
 matplotlib
 numpy==1.19.3
-pandas
+pandas==1.0.3
 plotly
 PyJWT==1.7.1
 python-dateutil>=2.5.3
