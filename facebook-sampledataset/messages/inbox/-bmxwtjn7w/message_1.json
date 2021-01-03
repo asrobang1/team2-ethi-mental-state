@@ -1,0 +1,556 @@
+{
+  "participants": [
+    {
+      "name": "OULIH.QBOAAYL"
+    },
+    {
+      "name": "ACWBUYF.XYFFS"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1566984678220,
+      "content": "See you next week!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1566984055099,
+      "content": "Thanks Aaron, you too! Looking forwards to seeing you at graduation \u00f0\u009f\u0098\u008a",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1566979937344,
+      "content": "Happy Birthday mate! Have a great day!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1565350988292,
+      "content": "Yeah fair that makes sense",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1565315032351,
+      "content": "Yeh fair enough actually, was gonna just post it on PPE chat a bit closer to the time, was mainly thinking about what we do after graduation but probs would be nice to invite the others. Mainly was worried it would seem a bit insensitive to invite people who weren\u00e2\u0080\u0099t graduating but ye actually better to invite them and let them decide what to do",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1565303747225,
+      "content": "Hey man, was going to say maybe invite rob and Maximilian - our cohort even though they don\u00e2\u0080\u0099t graduate till year after",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1559329536086,
+      "content": "Need me an Uncle that lives in London \u00f0\u009f\u0098\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1559329527551,
+      "content": "As currently looking for somewhere",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1559329520002,
+      "content": "Just thought I\u00e2\u0080\u0099d ask",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1559329517149,
+      "content": "Ah fair enough",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1559329501588,
+      "content": "Same flat is a bit of a stretch reallly haha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1559329491054,
+      "content": "Hey no worries man, ye it\u00e2\u0080\u0099s basically sorted in the sense that I\u00e2\u0080\u0099m either staying sane flat same people or I\u00e2\u0080\u0099ll live with my uncle for cheap rent haha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1559324539001,
+      "content": "Have you sorted out accommodation for next year?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1559324527334,
+      "content": "Hey man, sorry I couldn\u00e2\u0080\u0099t make it to your party",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1557567152360,
+      "content": "Thanks, yhh see you on Wednesday \u00f0\u009f\u0091\u008d\u00f0\u009f\u008f\u00bd",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567134407,
+      "content": "Ok well good luck with Monday! And see you Wednesday morning \u00f0\u009f\u00a4\u00af\u00f0\u009f\u0094\u00ab",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567111111,
+      "content": "Same",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1557567108801,
+      "content": "Literally cannot wait",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567108479,
+      "content": "Hahaa",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567105830,
+      "content": "Then freeeedom",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567099253,
+      "content": "Yepp",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1557567094820,
+      "content": "Friday your last one?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1557567091592,
+      "content": "But at least then they\u00e2\u0080\u0099re all done",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1557567086366,
+      "content": "Yeah it\u00e2\u0080\u0099s unideal",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567082584,
+      "content": "I have Wednesday Friday",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567077933,
+      "content": "Oh damn Monday Wednesday",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567069054,
+      "content": "Haha I\u00e2\u0080\u0099m the same",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1557567067895,
+      "content": "Focusing on exam on Monday for now",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1557567062357,
+      "content": "Not yet, but will be by the time of it \u00f0\u009f\u0098\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567048514,
+      "content": "You feel ready? \u00f0\u009f\u0098\u0084",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567035518,
+      "content": "\u00f0\u009f\u0091\u008c\u00f0\u009f\u0091\u008c",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567033076,
+      "content": "Oh ok perfect!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567028453,
+      "content": "Unless mine is too",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1557567025955,
+      "content": "Dw I managed to contact UCL helpdesk and they got it back up and running",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567019434,
+      "content": "But I can go do it now if your moodle is still down?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557567001402,
+      "content": "Yo, no I haven\u00e2\u0080\u0099t downloaded them",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1557523541089,
+      "content": "Did you download the economic history lecture slides?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1557523529325,
+      "content": "My Moodle is down",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1557523524738,
+      "content": "Hey man",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1517187052230,
+      "content": "Yhh it does and the role itself is interesting, just not sure if its where I want to start my career post-graduation.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1517187028438,
+      "content": "Ah ok that makes sense, even if you dont end up going into it, the brand names of the consulting firms are really good",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1517187015267,
+      "content": "Ah ok, America would be great tbf",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1517186794083,
+      "content": "Tbf BoE looks really really great anyway",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1517186778383,
+      "content": "Idk what I realllly want to do afterwards but I figured a consulting internship would just be super useful",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1517186756483,
+      "content": "I decided to save BCG for next year and try really hard on that",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1517186718903,
+      "content": "American internships, was a long shot but thought it would be awesome haha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1517186667943,
+      "content": "BoE have offered me this summer again but Id much rather be in consulting I think",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1517186644650,
+      "content": "What role did you apply for at Bain? I also got rejected from OW as well. Waiting to hear back from McKinsey, BCG, and a few smaller ones. Have an interview at Roland Berger",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1517186452773,
+      "content": "Wbu?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1517186446723,
+      "content": "I applied for OW but didn't get interviewed, idk why. I'm planning on trying a bit harder over the next couple of weeks to sort something, I still have Laidlaw research but fancied something a bit more businessy too",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1517186384653,
+      "content": "Bain and Deloitte I applied for ages ago, and I might now try and see if there are any smaller places I could try",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1517185605765,
+      "content": "Where else have you applied?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1517185597948,
+      "content": "Ah ok nice",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1517185459103,
+      "content": "Bit last minute :P",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1517185440346,
+      "content": "Yes I was, haha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1517184649559,
+      "content": "Were you working on a mckinsey application the other day?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1517184638309,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1517184563183,
+      "content": "Cool \u00f0\u009f\u0098\u008a see you there!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1517173074954,
+      "content": "Hey man, can make it to the party on Friday",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1517068393813,
+      "content": "Yeah sure no problem \u00f0\u009f\u0098\u008a",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1517067400807,
+      "content": "Hey, just waiting to hear back from someone, can I let you know on Monday if that\u00e2\u0080\u0099s ok?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1517067123704,
+      "content": "Hey, can you come to the partyyy it's next Friday, let me know",
+      "share": {
+        "link": "https://www.facebook.com/events/1315449181933650/"
+      },
+      "type": "Share",
+      "ip": "131.111.185.77"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1511543062711,
+      "content": "There are 4 of us",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1511543058429,
+      "content": "It\u00e2\u0080\u0099s cold",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1511543055914,
+      "content": "Yep",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1511543052947,
+      "content": "Into spp?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1511543024347,
+      "content": "Hey are you inside? Can you let me in?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1507912472390,
+      "content": "Ok sure",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1507912390963,
+      "content": "Just say you put my name down cause I'm supposed to be there but I'll email",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1507912361852,
+      "content": "Max signed initials",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1507912352286,
+      "content": "Ok sure, i put your initials on the sheet, just thinking if i should say something",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1507912318243,
+      "content": "Alright I'll email her probably",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1507911947996,
+      "content": "she's taken everyones names, so ill tell her at the end that you'll email, ill ad to sign in sheet that you said you'll email",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1507910886750,
+      "content": "Nw",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1507910861769,
+      "content": "well that's great, thanks",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1507910857368,
+      "content": "hahaha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1507910854380,
+      "content": "Max agreed",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1507910853205,
+      "content": "ok haha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1507910851023,
+      "content": "We\u00e2\u0080\u0099ve signed you in",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1507910849292,
+      "content": "mm idk",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1507910813142,
+      "content": "I can sign you in?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1507910446035,
+      "content": "think I'm not going to turn up to the CP seminar today, feel absolutely dead. Can you tell Lucy if she takes a register, that I was feeling bad so I went home?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1486748307207,
+      "content": "Yeah you too!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1486748294226,
+      "content": "Have a good reading week!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1486748290060,
+      "content": "Yhh probably not",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1486748229202,
+      "content": "Probably nobody did",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1486748223918,
+      "content": "Haha no worries",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OULIH.QBOAAYL",
+      "timestamp_ms": 1486748001540,
+      "content": "Sorry just saw this; I didn't go today \u00f0\u009f\u0098\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1486741779812,
+      "content": "Hey man, any chance you can sign me in for econ?",
+      "type": "Generic"
+    }
+  ],
+  "title": "OULIH.QBOAAYL",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "CHVIR=OULIHQBOAAYLS;PGRKHDHEQ"
+}

@@ -1,0 +1,46 @@
+{
+  "participants": [
+    {
+      "name": "Zo\u00c3\u00ab Silkstone"
+    },
+    {
+      "name": "UY.FIAY"
+    },
+    {
+      "name": "ACWBUYF.XYFFS"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Zo\u00c3\u00ab Silkstone",
+      "timestamp_ms": 1498153123044,
+      "content": "Will do! And yes I know re amy im gonna do it at beginning of the month sorry have no money atm!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1498146071930,
+      "content": "okok I pay now",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "UY.FIAY",
+      "timestamp_ms": 1498138608384,
+      "content": "Oh and Zoe I think Amy's waiting for the Italy flight money",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "UY.FIAY",
+      "timestamp_ms": 1498138531264,
+      "content": "Hey guys can you send me \u00c2\u00a35 for the Chinese last night? paypal.me/gpunter/5",
+      "share": {
+        "link": "https://www.paypal.me/gpunter"
+      },
+      "type": "Share"
+    }
+  ],
+  "title": "Zo\u00c3\u00ab Silkstone and Ge Roge",
+  "is_still_participant": true,
+  "thread_type": "RegularGroup",
+  "thread_path": "CHVIR=NIYGCFEMNIHYUHXUYFIAYSYFDZ>AWZDO"
+}

@@ -1,0 +1,34 @@
+{
+  "participants": [
+    {
+      "name": "NUE.UBUTC;HILVUNC"
+    },
+    {
+      "name": "ACWBUYF.XYFFS"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "NUE.UBUTC;HILVUNC",
+      "timestamp_ms": 1543768914224,
+      "content": "Ahaha great to meet you too pal. Hope you had a great night and hopefully see you soon :)x",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1543768108881,
+      "content": "Was great meeting you guys, good luck in the rest of the shows. Pat and I will look into bringing some homoerotically challenged rugby lads haha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "NUE.UBUTC;HILVUNC",
+      "timestamp_ms": 1543755716822,
+      "content": "Say hi to your new Facebook friend, Zak.",
+      "type": "Generic"
+    }
+  ],
+  "title": "NUE.UBUTC;HILVUNC",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "CHVIR=NUEUBUTCHILVUNCSUIFXF;EICA"
+}

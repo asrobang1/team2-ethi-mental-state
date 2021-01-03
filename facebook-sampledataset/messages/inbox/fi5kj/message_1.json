@@ -1,0 +1,163 @@
+{
+  "participants": [
+    {
+      "name": "ACWBUYF.XYFFS"
+    },
+    {
+      "name": "OGVYLFYCAB.RLSGUH"
+    },
+    {
+      "name": "ZCUG.PULLYNN"
+    },
+    {
+      "name": "CMWUL.YCHA"
+    },
+    {
+      "name": "PYNB.ZYPS"
+    },
+    {
+      "name": "OFYR.ACWBUYF"
+    },
+    {
+      "name": "XIYF.YHYY"
+    },
+    {
+      "name": "GYLLU.CFWUS"
+    },
+    {
+      "name": "SGCFS.GNYJBYHM"
+    },
+    {
+      "name": "OXUG.QIR"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1498230842247,
+      "content": "I'll get there nearer to 5 i think xx",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "CMWUL.YCHA",
+      "timestamp_ms": 1498230727407,
+      "content": "In 5?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "CMWUL.YCHA",
+      "timestamp_ms": 1498230721347,
+      "content": "Lobby?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "CMWUL.YCHA",
+      "timestamp_ms": 1498230717407,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "GYLLU.CFWUS",
+      "timestamp_ms": 1498230711169,
+      "content": "We are leaving in a min",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "CMWUL.YCHA",
+      "timestamp_ms": 1498230671840,
+      "content": "Anyone walking from Connaught?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "XIYF.YHYY",
+      "timestamp_ms": 1498230628618,
+      "sticker": {
+        "uri": "messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.ACWBUYF",
+      "timestamp_ms": 1498230620958,
+      "content": "See you all thereeee",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.ACWBUYF",
+      "timestamp_ms": 1498230614712,
+      "content": "Thanks Joel xx",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.ACWBUYF",
+      "timestamp_ms": 1498230609413,
+      "content": "Metropolitan Bar? Baker Street",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "XIYF.YHYY",
+      "timestamp_ms": 1498230593416,
+      "content": "baker street spoons",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.ACWBUYF",
+      "timestamp_ms": 1498230338557,
+      "content": "On route",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.ACWBUYF",
+      "timestamp_ms": 1498230336743,
+      "content": "Yeah",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1498230324900,
+      "content": "What is the spoons called? That still the plan?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "SGCFS.GNYJBYHM",
+      "timestamp_ms": 1498168524765,
+      "content": "Emily Stephens added Joel Knee to the group.",
+      "type": "Subscribe",
+      "users": [
+        {
+          "name": "XIYF.YHYY"
+        }
+      ]
+    },
+    {
+      "sender_name": "OFYR.ACWBUYF",
+      "timestamp_ms": 1498166481590,
+      "content": "Okay haha x",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "PYNB.ZYPS",
+      "timestamp_ms": 1498166469069,
+      "content": "My parents are coming to get my stuff between 5 and 6 so I may have to meet you at the zoo",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.ACWBUYF",
+      "timestamp_ms": 1498166382694,
+      "content": "Alex named the group Zoooooo \u00f0\u009f\u00a6\u0081\u00f0\u009f\u0090\u00af\u00f0\u009f\u0090\u00b8\u00f0\u009f\u0090\u00a8\u00f0\u009f\u0091\u00bd.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.ACWBUYF",
+      "timestamp_ms": 1498166360985,
+      "content": "Hey! Can't remember if there's anyone else? Please add them if there is! It starts at 6 so dinner will be missed so maybe order the replacement meal tomorrow morning from Connaught? Let's meet at the Baker Street Weatherspoons at 4:30ish for a drink beforehand and then head to the Zoo at 5:30? Can't wait! See you at Spoons boys x",
+      "type": "Generic"
+    }
+  ],
+  "title": "Zoooooo \u00f0\u009f\u00a6\u0081\u00f0\u009f\u0090\u00af\u00f0\u009f\u0090\u00b8\u00f0\u009f\u0090\u00a8\u00f0\u009f\u0091\u00bd",
+  "is_still_participant": true,
+  "thread_type": "RegularGroup",
+  "thread_path": "CHVIR=NIIIIIISTCCYDSSRNQ"
+}

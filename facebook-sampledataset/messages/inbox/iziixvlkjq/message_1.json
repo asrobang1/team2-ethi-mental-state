@@ -1,0 +1,43 @@
+{
+  "participants": [
+    {
+      "name": "Vladislava Cu\u00c8\u0099nir"
+    },
+    {
+      "name": "ACWBUYF.XYFFS"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Vladislava Cu\u00c8\u0099nir",
+      "timestamp_ms": 1586552968638,
+      "content": "You can now call each other and see information such as Active Status and when you've read messages.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Vladislava Cu\u00c8\u0099nir",
+      "timestamp_ms": 1586552967560,
+      "content": "ewdfretgtg",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1586552917943,
+      "content": "https://blockchain.poker?tournament=13071&affiliate=2680274aefe22c23c56eec52033e7e68",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1586551002021,
+      "content": "https://blockchain.poker?tournament=13055&affiliate=2680274aefe22c23c56eec52033e7e68",
+      "share": {
+        "link": "https://blockchain.poker/"
+      },
+      "type": "Share"
+    }
+  ],
+  "title": "Vladislava Cu\u00c8\u0099nir",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "CHVIR=JFUXCMFUPUQOHCLSWNCCLJFYDE"
+}

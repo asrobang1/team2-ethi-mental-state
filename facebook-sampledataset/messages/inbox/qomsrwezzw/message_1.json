@@ -1,0 +1,22 @@
+{
+  "participants": [
+    {
+      "name": "KCFF.DUAY"
+    },
+    {
+      "name": "ACWBUYF.XYFFS"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "KCFF.DUAY",
+      "timestamp_ms": 1492199220082,
+      "content": "Say hi to your new Facebook friend, Will.",
+      "type": "Generic"
+    }
+  ],
+  "title": "KCFF.DUAY",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "CHVIR=KCFFDUAYSEIAMLQSNTQ"
+}

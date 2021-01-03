@@ -1,0 +1,88 @@
+{
+  "participants": [
+    {
+      "name": "OFYR.VUCAB"
+    },
+    {
+      "name": "ACWBUYF.XYFFS"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "OFYR.VUCAB",
+      "timestamp_ms": 1408117069868,
+      "content": "Am in Thailand right now mate wish I could but sorry aha x",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1408034344342,
+      "content": "Hey man, do you mind if I borrow your ID tonight? I can drop it back tomorrow and of course I'd pay if I lost it! :) you won't owe me that pint either! cheers x",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1379013703983,
+      "content": "Hmm.. I don't remember this, I dunno, would prefer just our year there..",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.VUCAB",
+      "timestamp_ms": 1378994023636,
+      "content": "He wasn't there, I asked you aha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1378993959313,
+      "content": "No I didn't? Didn't speak to him at bolands I don't think?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.VUCAB",
+      "timestamp_ms": 1378993878950,
+      "content": "You said yes to dainty at bolands remember?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.VUCAB",
+      "timestamp_ms": 1378993843929,
+      "content": "Not even just dainty, only really wanted dainty",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1378993048447,
+      "content": "Sorry buddy, I think there are too many people coming already, parents are annoyed already so I can't let more come..",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1378937668981,
+      "content": "Yeh sorry was playing rugby.. Kit has asked me already and I need to talk to my sister first, I'll reply tomorrow and try to let you know if you want",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.VUCAB",
+      "timestamp_ms": 1378931107561,
+      "content": "???",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.VUCAB",
+      "timestamp_ms": 1378927515116,
+      "content": "And dainty",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.VUCAB",
+      "timestamp_ms": 1378927109487,
+      "content": "Hey man is it cool if kit can come to yours on Saturday??",
+      "type": "Generic"
+    }
+  ],
+  "title": "OFYR.VUCAB",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "CHVIR=OFYRVUCABSYNBHXKZDFO"
+}

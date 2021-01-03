@@ -1,0 +1,515 @@
+{
+  "participants": [
+    {
+      "name": "KCFF.DOLMYL"
+    },
+    {
+      "name": "ACWBUYF.XYFFS"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573933110878,
+      "content": "Should be fine I think",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573933105916,
+      "content": "Like if it's brick",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573929835228,
+      "content": "Could we do brackets on one wall and free standing the other?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573929816975,
+      "content": "Interesting. How solid does the wall need to be?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573834917354,
+      "content": "So 2 walls",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573834913060,
+      "content": "Would only need it on opposite sides",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573834855602,
+      "content": "Two walls are outer walls and so v solid, two are inner walls so am less sure, will have to check.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573834562786,
+      "content": "Neater",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573834559511,
+      "content": "Would be nearer and cheaper",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573834548820,
+      "content": "Find out what the walls are made of, we could use brackets and avoid vertical support",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573832910697,
+      "content": "So, two things:\n\nFirstly I\u00e2\u0080\u0099m up for the platform/mezzanine if you\u00e2\u0080\u0099re up for it, my Uncle will pay for timber and I can pay you in dinner and pints and banter (or actual money too) while Tom/Ned and I work alongside you? Will get precise measurements tomorrow, and we can do it on a weekend where you\u00e2\u0080\u0099re free.\n\nSecondly my uncle wants some carpentry done in a few places in the house and would pay you a reasonable asking price for it (if you like the sound of it).",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573146985293,
+      "content": "It'll be around \u00c2\u00a3300 of timber I suspect",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573146875460,
+      "content": "What exactly were you thinking?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573146867535,
+      "content": "But it's quite a lot of work if you would want me to plan it and get the timber and tools in",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573146830730,
+      "content": "Yh of course I can come help",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573146764852,
+      "content": "so wys, up for giving it a go?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573146697541,
+      "content": "That would be pretty cool haha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573144875955,
+      "content": "But it can take alot",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573144863901,
+      "content": "My bed isn't designed like that though",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573144848889,
+      "content": "I could design it to take like 10 people safely",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573144781424,
+      "content": "That was my plan. Can you stand up (in terms of weight-bearing/solidity) on yours? How many people do you think it could support?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573141368157,
+      "content": "Could just be free standing",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573141360864,
+      "content": "Well you could probably use the same technique",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573140263687,
+      "content": "Do you fancy getting involved at all? As a consultant or a product manager \u00f0\u009f\u0098\u0089 help me build it in return for two square meals and a few pints after? Could have some extra hands from Nedandtom.com the problem solvers",
+      "share": {
+        "link": "https://www.nedandtom.com/"
+      },
+      "type": "Share"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573140181180,
+      "content": "I reckon I\u00e2\u0080\u0099d be looking at 120h 270l 180w or something",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573140143519,
+      "content": "Interesting indeed",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573140077978,
+      "content": "Something like that",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573140073890,
+      "content": "75h 200l 150w",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573140063577,
+      "content": "Dimensions",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573140052777,
+      "content": "Would love to see how that goes sounds pretty entertaining haha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573140035131,
+      "content": "You mentioned it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573138238079,
+      "content": "Sounds v fun",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573138226720,
+      "content": "I\u00e2\u0080\u0099m currently considering building a 4ft high platform in my room and sticking my bed underneath it, having a chillout zone on top of it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573138153790,
+      "content": "That\u00e2\u0080\u0099s a lovely desk as well",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573138142851,
+      "content": "How big is it? Height/width/length?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573138137840,
+      "content": "I absolutely love it haha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573135713959,
+      "photos": [
+        {
+          "uri": "messages/inbox/WillPurser_dF5Ki7446Q/photos/76722697_981923958811301_3226888717092257792_n_981923885477975.jpg",
+          "creation_timestamp": 1573135712
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573135043512,
+      "content": "Long weekend of lazy work?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573135026487,
+      "content": "Hello mate",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1573135023836,
+      "content": "Haha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573132052855,
+      "photos": [
+        {
+          "uri": "messages/inbox/WillPurser_dF5Ki7446Q/photos/75478481_606141906591427_3170835975085490176_n_606141813258103.jpg",
+          "creation_timestamp": 1573132052
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573132052523,
+      "content": "How long did this take you to make?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1573132049573,
+      "content": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f\u00e2\u009d\u00a4\u00ef\u00b8\u008f\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001788876,
+      "content": "make a google form",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001783865,
+      "content": "Can be arranged",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001770594,
+      "content": "Yes, if they come up as dropdowns on my computer when clicked",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001758483,
+      "content": "Can you make other more important decsions on my behalf as well?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001740021,
+      "content": "Fair enough",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001714818,
+      "content": ";)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001713572,
+      "content": "so just enforced it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001707839,
+      "content": "I think when you told me I had it up",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001700054,
+      "content": "hahaha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001675178,
+      "content": "What kind of totalitarian system is this",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001666470,
+      "content": "oh maybe I did it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001657278,
+      "content": "it's already done for me",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001652496,
+      "content": "Oh damn",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001651178,
+      "content": "that's the kind of commitment we expect",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001646679,
+      "content": "good",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001645886,
+      "content": "hahaha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001639600,
+      "content": "No I will risk the chance of disownment",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001625620,
+      "content": "Yeah just realised that ahahah",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001620999,
+      "content": "let me check, for your family's sensibilities",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001611823,
+      "content": "I'm fairly sure it's only people invited to the event",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001599964,
+      "content": "logic!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001598233,
+      "content": "so yeh",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001596418,
+      "content": "but i guess i am also going",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001592806,
+      "content": "and so only people invited to the event can see stuff",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001587530,
+      "content": "haha Neds came up on my wall",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001582553,
+      "content": "as far as I'm aware",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001578114,
+      "content": "I don't think it's a public event",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001572390,
+      "content": "hahaha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001463744,
+      "content": "I didn't press going cause my family has Facebook and I didn't want them seeing 'lubed climax ' and getting the wrong idea \u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001325917,
+      "content": "Look forward to having you",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001309091,
+      "content": "Wonderful stuff",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001246865,
+      "content": "Yes my exams finish 21st so I'm very much looking forward to it!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1557001224372,
+      "content": "Hello there",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001150895,
+      "content": "I think Ned and I will be beginning the night drunk, so it could get funky",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001129965,
+      "content": ":D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001128623,
+      "content": "can you come on the 25th to ze party?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1557001112691,
+      "content": "oioi",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.DOLMYL",
+      "timestamp_ms": 1506876041422,
+      "content": "Say hi to your new Facebook friend, Will.",
+      "type": "Generic"
+    }
+  ],
+  "title": "KCFF.DOLMYL",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "CHVIR=KCFFDOLMYLSXTCYCEBBDE"
+}

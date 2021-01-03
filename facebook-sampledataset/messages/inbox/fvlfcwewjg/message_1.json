@@ -1,0 +1,29 @@
+{
+  "participants": [
+    {
+      "name": "OUSOMB.DUNYF"
+    },
+    {
+      "name": "ACWBUYF.XYFFS"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1505000317355,
+      "content": "You waved at Aayush!",
+      "type": "Share",
+      "ip": "176.24.107.68"
+    },
+    {
+      "sender_name": "OUSOMB.DUNYF",
+      "timestamp_ms": 1505000231202,
+      "content": "Say hi to your new Facebook friend, Aayush.",
+      "type": "Generic"
+    }
+  ],
+  "title": "OUSOMB.DUNYF",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "CHVIR=OUSOMBDUNYFSZJZTWKYKDA"
+}

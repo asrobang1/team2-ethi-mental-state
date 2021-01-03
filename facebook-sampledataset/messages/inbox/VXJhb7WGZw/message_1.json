@@ -1,0 +1,87 @@
+{
+  "participants": [
+    {
+      "name": "ILPC.YULUGWBUHXUHC"
+    },
+    {
+      "name": "ACWBUYF.XYFFS"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1549298915325,
+      "content": "thanks so much Urvi! :)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ILPC.YULUGWBUHXUHC",
+      "timestamp_ms": 1549298760187,
+      "content": "There's the ticket! =) Enjoy!!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ILPC.YULUGWBUHXUHC",
+      "timestamp_ms": 1549298743037,
+      "photos": [
+        {
+          "uri": "messages/inbox/UrviKaramchandani_VXJhb7WGZw/photos/51278389_327546714534868_7300575612920397824_n_327546697868203.jpg",
+          "creation_timestamp": 1549298742
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1549298271068,
+      "content": "sure thing, thanks a lot!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ILPC.YULUGWBUHXUHC",
+      "timestamp_ms": 1549298250650,
+      "content": "Cool, give me a min to find it! =)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1549298231637,
+      "content": "I thiink so? Not 100% sure but that would make sense",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1549298219974,
+      "content": "You can now call each other and see information such as Active Status and when you've read messages.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ILPC.YULUGWBUHXUHC",
+      "timestamp_ms": 1549298219781,
+      "content": "Do you just need the Eventbrite confirmation?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1549298219389,
+      "content": "Ah awesome :D",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ILPC.YULUGWBUHXUHC",
+      "timestamp_ms": 1549298204761,
+      "content": "Yup!",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1549298090961,
+      "content": "Hi Urvi, would be cool to get your spare ticket  if you still have it! :)",
+      "type": "Generic"
+    }
+  ],
+  "title": "ILPC.YULUGWBUHXUHC",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "CHVIR=ILPCYULUGWBUHXUHCSJLXBVEKUNQ"
+}

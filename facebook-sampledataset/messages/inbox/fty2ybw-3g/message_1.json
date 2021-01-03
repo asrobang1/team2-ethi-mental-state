@@ -1,0 +1,94 @@
+{
+  "participants": [
+    {
+      "name": "OFYR.VUMNCHAM"
+    },
+    {
+      "name": "ACWBUYF.XYFFS"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1514630711784,
+      "content": "Cool just at coop, coming now",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.VUMNCHAM",
+      "timestamp_ms": 1514630613366,
+      "content": "Where you at?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.VUMNCHAM",
+      "timestamp_ms": 1514630609957,
+      "content": "Outside costa mate",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1514630234965,
+      "content": "Sup where are you guys parked?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1514630129345,
+      "content": "Give me 3 mins \u00f0\u009f\u0098\u008a",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.VUMNCHAM",
+      "timestamp_ms": 1514628536243,
+      "content": "Nice one catch you in a bit",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1514628514865,
+      "content": "I\u00e2\u0080\u0099ll see you there then",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1514628405784,
+      "content": "Perfect",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.VUMNCHAM",
+      "timestamp_ms": 1514628391816,
+      "content": "Coop in cranners?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1514628374120,
+      "content": "10.30? Fairrr from where?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "OFYR.VUMNCHAM",
+      "timestamp_ms": 1514623721537,
+      "content": "Hey man how\u00e2\u0080\u0099s it going? Yeah I am mate there should be space for you if you want it. Gonna be leaving at around 10:30 to make sure we get there on time though as last year the traffic was horrific",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1514596430079,
+      "content": "Foz said could be the best way to get to his place",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1514596395569,
+      "content": "Sup you driving to foz tomorrow? Space for an extra? \u00f0\u009f\u0098\u008a",
+      "type": "Generic"
+    }
+  ],
+  "title": "OFYR.VUMNCHAM",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "CHVIR=OFYRVUMNCHAMSZNM@SVK;AA"
+}

@@ -1,0 +1,12 @@
+{
+  "location_history": [
+    {
+      "name": "London",
+      "coordinate": {
+        "latitude": 51.4305,
+        "longitude": -0.20601
+      },
+      "creation_timestamp": 1460504407
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "participants": [
+    {
+      "name": "ACWBUYF.XYFFS"
+    },
+    {
+      "name": "KULLYH.FIOMMYUO"
+    },
+    {
+      "name": "KCFF.GNYPYHM"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "KULLYH.FIOMMYUO",
+      "timestamp_ms": 1395858959816,
+      "content": "Grime and bax are\nBuying via me as well",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KULLYH.FIOMMYUO",
+      "timestamp_ms": 1395858942335,
+      "content": "Not a lot but a discount is a discount, I can get you \u00c2\u00a315 off so will be 200",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1395858894264,
+      "content": "Yeh that does sound good, how big a discount is there?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KULLYH.FIOMMYUO",
+      "timestamp_ms": 1395786505934,
+      "content": "hey guys, grime told me you were looking for some reading tickets? I'm representing reading this year and you can buy discount tickets through me? would you be interested?",
+      "type": "Generic"
+    }
+  ],
+  "title": "KULLYH.FIOMMYUO.UHX.KCFF.GNYPYHM",
+  "is_still_participant": true,
+  "thread_type": "RegularGroup",
+  "thread_path": "CHVIR=KULLYHFIOMMYUOUHXKCFFGNYPYHMSVDJDCVDHKO"
+}

@@ -1,0 +1,28 @@
+{
+  "participants": [
+    {
+      "name": "KCFF.GUPUAY"
+    },
+    {
+      "name": "ACWBUYF.XYFFS"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1316960902951,
+      "content": "it wasn't the wrong number, i just didn't have my phone or something, didn't get it straight away..",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KCFF.GUPUAY",
+      "timestamp_ms": 1316799044912,
+      "content": "Hi, Becky says u have given her the wrong number? look, she thinks ur really fit, and I'm pretty sure he wants to go out with u... but I'm just the messenger so...",
+      "type": "Generic"
+    }
+  ],
+  "title": "KCFF.GUPUAY",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "CHVIR=KCFFGUPUAYS>QZMDGCMUE"
+}

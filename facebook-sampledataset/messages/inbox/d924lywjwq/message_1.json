@@ -1,0 +1,34 @@
+{
+  "participants": [
+    {
+      "name": "KULLYH.FIOMMYUO"
+    },
+    {
+      "name": "ACWBUYF.XYFFS"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "KULLYH.FIOMMYUO",
+      "timestamp_ms": 1397154821153,
+      "content": "Wanna buy reading ticket at some point",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "KULLYH.FIOMMYUO",
+      "timestamp_ms": 1397154801620,
+      "content": "Heys",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1341926656205,
+      "content": "hey, i just need to know if you can come to my party on friday? i just need to know numbers so i can tell my parents, so rsvp or text me or something whether you can come? thanks :D x",
+      "type": "Generic"
+    }
+  ],
+  "title": "KULLYH.FIOMMYUO",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "CHVIR=KULLYHFIOMMYUOSXG@BFMQXQE"
+}

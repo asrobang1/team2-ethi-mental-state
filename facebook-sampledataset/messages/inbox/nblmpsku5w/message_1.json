@@ -1,0 +1,60 @@
+{
+  "participants": [
+    {
+      "name": "ACWBUYF.XYFFS"
+    },
+    {
+      "name": "JCNNILCU.SFYHU.AILCHC"
+    },
+    {
+      "name": "Pietro O. Decio"
+    },
+    {
+      "name": "SGGU.AUHTIILC"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "JCNNILCU.SFYHU.AILCHC",
+      "timestamp_ms": 1579374870194,
+      "content": "Hello!! Oh gosh so sorry I\u00e2\u0080\u0099ve just seen this! How are you?",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u008d",
+          "actor": "ACWBUYF.XYFFS"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1579303441801,
+      "sticker": {
+        "uri": "messages/stickers_used/851575_392309764199669_661301275_n_392309760866336.png"
+      },
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1579303441607,
+      "content": "I dropped off my bag on the way and I accidentally had a 30min nap as I\u00e2\u0080\u0099m super tired. \n\nWhat are you guys up to, should I come to the flat?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1579301058142,
+      "content": "Should I bring anything? Beer? Wine?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "ACWBUYF.XYFFS",
+      "timestamp_ms": 1579301048530,
+      "content": "I\u00e2\u0080\u0099m late! But I\u00e2\u0080\u0099m coming now",
+      "type": "Generic"
+    }
+  ],
+  "title": "Vittoria Elena Morini, Pietro O. Decio and Emma Manzoori",
+  "is_still_participant": true,
+  "thread_type": "RegularGroup",
+  "thread_path": "CHVIR=JCNNILCUSFYHUAILCHCDCYNLICRYWCIUHXSGGUAUHTIILCSHVZGDGEICQ"
+}
