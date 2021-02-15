@@ -395,7 +395,7 @@ if __name__ == "__main__":
     df = df.head(300)  # cap at 300 'closest' friends
 
     # IBM Watson Tone Analyzer for the last 50 chat messages with each friend
-    apikey = "rL9l_qk3EhoKpcQW7PapS98Hvm06Eb9_oLvtHtjGxKDM"
+    apikey = ""
     url = "https://api.jp-tok.tone-analyzer.watson.cloud.ibm.com/instances/4c2d9078-27dd-48c9-985c-7ceedd475c06"
     authenticator = IAMAuthenticator(apikey)
     ta = ToneAnalyzerV3(version="2017-09-21", authenticator=authenticator)
